@@ -1,6 +1,6 @@
 # Template for react SPA project
 
-## Installed packages
+## Main installed packages
 
 - [create react app](https://github.com/facebook/create-react-app)
 - [craco](https://github.com/dilanx/craco)

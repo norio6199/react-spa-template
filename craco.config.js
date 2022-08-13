@@ -1,20 +1,16 @@
+// eslint-disable-next-line no-undef
 module.exports = {
   babel: {
-    presets: [
-      [
-        "@babel/preset-react",
-        { runtime: "automatic", importSource: "@emotion/react" },
-      ],
-    ],
+    presets: [['@babel/preset-react', { runtime: 'automatic', importSource: '@emotion/react' }]],
     plugins: [
-      "@emotion/babel-plugin",
+      '@emotion/babel-plugin',
       [
-        "module-resolver",
+        'module-resolver',
         {
-          extensions: [".ts", ".tsx"],
-          root: "./",
+          extensions: ['.ts', '.tsx'],
+          root: './',
           alias: {
-            "@": ["./src"],
+            '@': ['./src'],
           },
         },
       ],
